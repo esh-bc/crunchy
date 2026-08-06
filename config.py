@@ -13,7 +13,7 @@ load_dotenv()
 
 # ─── BOT TOKEN ───────────────────────────────────────────────────────────────
 # Set your token from @BotFather here or in .env
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8825885438:AAEGPjnkmlHJB8z1AI_AA2aDwDvzalNfKmM")
 
 # ─── OWNER ID ────────────────────────────────────────────────────────────────
 # Your Telegram user ID (super-admin). Get it from @userinfobot
@@ -23,7 +23,7 @@ OWNER_ID_DEFAULT = os.getenv("OWNER_ID", "8264404281")
 # MongoDB connection URL — set here or in .env
 MONGO_URI = os.getenv(
     "MONGO_URI",
-    ""
+    "mongodb+srv://Esh:1234567890ukwhat@cluster0.mnbnc7a.mongodb.net/?appName=Cluster0"
 )
 MONGO_DB_NAME = "crunchyroll_bot"
 
