@@ -263,8 +263,10 @@ async def main():
     async with app:
         await app.start()
         await app.updater.start_polling(
-            allowed_updates=Update.ALL_TYPES,
-            drop_pending_updates=True,
+                allowed_updates=Update.ALL_TYPES,
+                drop_pending_updates=True,
+                poll_interval=0.0,
+                timeout=10,
         )
         logger.info("✅ Bot is polling for updates…")
 
